@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+}
+.main {
+  width: 80%;
+  margin: 2rem auto;
+}
+.image {
+  width: 100%;
+  padding: 1rem;
+}
+.description {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.start {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.about {
+  padding: 1rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+#year {
+  padding-right: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+.visit {
+  margin-top: 1rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+.para {
+  width: 90%;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.7rem;
+}
+@media screen (max-width: 375px) {
+  main {
+    display: flex;
+  }
+}
